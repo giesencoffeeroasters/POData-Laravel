@@ -19,13 +19,13 @@
     },
     "require": {
         "php": "^7.1",
-        "algo-web/podata": "0.3.*|dev-master",
+        "algo-web/podata": "self.version",
         "cruxinator/class-finder": "1.0.0-RC2|dev-master",
-        "doctrine/dbal": "^2.5",
-        "illuminate/http": "^5.5|^6.0|^7.0",
-        "laravel/framework": "^5.5|^6.0|^7.0",
-        "symfony/http-foundation": "^2.7|^3.0|^4.0",
-        "symfony/yaml": "^2.7|^3.0|^4.0"
+        "doctrine/dbal": "^2.6",
+        "illuminate/http": "^7.0",
+        "laravel/framework": "^7.0",
+        "symfony/http-foundation": "^4.0|^5.0",
+        "symfony/yaml": "^4.0|^5.0"
     },
     "require-dev": {
         "infection/infection": "^0.13|dev-master",
@@ -35,7 +35,7 @@
         "orchestra/testbench": "3.5.*|3.6.*|3.7.*|3.8.*|^4.0",
         "pcov/clobber": "dev-master",
         "php-coveralls/php-coveralls": ">=v2.1",
-        "phpunit/phpunit": "^6.0|^7.0|^8.0"
+        "phpunit/phpunit": "^8.4|^9.0"
     },
     "autoload": {
         "psr-4": {
